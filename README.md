@@ -64,16 +64,19 @@ http://localhost:3000
 
 ## Project Structure
 
-```
-├── server.js              # Main server file
-├── package.json           # Dependencies and scripts
-├── .env                   # Environment variables
-├── index.html            # Main HTML file
-├── styles.css            # CSS with animations
-├── script.js             # Frontend JavaScript
-├── images/               # Image assets
-│   └── profile-medium.jpg
-└── README.md             # This file
+```text
+├── public/                 # Static assets for the frontend
+│   ├── assets/
+│   │   └── images/         # Profile and project images
+│   ├── css/                # Custom stylesheets (styles-clean.css)
+│   ├── js/                 # Client-side JavaScript (script-clean.js)
+│   └── index.html          # Main entry point (moved to public/)
+├── docs/                   # Documentation and guides
+├── tests/                  # API and frontend test scripts
+├── server.js               # Express server configuration
+├── package.json            # Project dependencies and scripts
+├── .env                    # Environment variables configuration
+└── README.md               # Project documentation
 ```
 
 ## Technologies Used
